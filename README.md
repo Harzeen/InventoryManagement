@@ -19,13 +19,13 @@ A simple **Spring Boot** application for managing inventory, built using Java an
 - Eclipse IDE (project files included)
 
 ## Configure Application properties
-# Database Connection
-spring.datasource.url=jdbc:mysql://localhost:3306/[Db-name]
-spring.datasource.username=[username]
-spring.datasource.password=[**password**]
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+### Database Connection
+- spring.datasource.url=jdbc:mysql://localhost:3306/[Db-name]
+- spring.datasource.username=[username]
+- spring.datasource.password=[**password**]
+- spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
-# JPA/Hibernate
+### JPA/Hibernate
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
