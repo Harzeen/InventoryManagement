@@ -2,8 +2,8 @@ package com.inventorymanagement.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.inventorymanagement.entity.Product;
+import com.inventorymanagement.entity.Item;
 
-public interface ProductRepo extends JpaRepository<Product, Long>{
+public interface ItemRepo extends JpaRepository<Item, Long>{
 
 }

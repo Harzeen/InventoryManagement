@@ -3,7 +3,7 @@ package com.inventorymanagement.entity;
 import jakarta.persistence.*;
 
 @Entity
-public class Product {
+public class Item {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -13,7 +13,7 @@ public class Product {
     private double price;
     private int quantity;
 
-    public Product() {}
+    public Item() {}
 
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
